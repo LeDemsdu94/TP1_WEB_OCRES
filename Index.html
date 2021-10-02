@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="cvDamien.css" />
+        <title>CV - Damien Méhauté</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="h1_header">Damien</h1>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#about_h1">About</a></li>
+                    <li><a href="#h1_education">Education & Experience</a></li>
+                    <li><a href="#sk_h1">Skills</a></li>
+                    <li><a href="#contact_h1">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+                <h1>Bonjour,</br>
+                Je suis <strong>Damien</strong>,</br>
+                étudiant à l'ECE</br>
+                <button>
+                    <a href="#contact_h1" class="button">Contact</a>
+                </button>
+            </h1>
+
+            <img src="photo.png" alt="Photo d'identité Damien Méhauté" />
+        </section>
+
+        <!-- Partie About -->
+        <article class="article_about">
+            <h1 id="about_h1">About</h1>
+            <div class="article_Abo">
+                <h3 class="about_h3">My Background</h3>
+                <p class="about_p">
+                Passionate about the field of engineering, the technological world and everything related to science,</br>
+                I have both the skills and the professional experience necessary to dive deeply into the world of</br>
+                engineering.</br>
+                As an optimistic and motivated team player with excellent communication, I envision an exciting future.</br>
+                Browse my site to see all I have to offer.
+                 </p>
+            </div>
+        </article>
+
+        <!-- Partie  Education + experience : utilisation de flex-->
+        <div class="article_eduExp">
+            <!-- Partie  Education-->
+            <article class="edu_article">
+                <h1 id="h1_education">Education</h1>
+                <h2 class="education_h2">What i've learned</h2>
+                <h3>2018-2023</h3>
+                <p>
+                 Ecole d'ingénieur - ECE Paris Lyon</br>
+                 Master 1 - Objets Connectés Réseaux et Services   
+                </p>
+                <h3>February 2020 - July 2020</h3>
+                <p>
+                 Engineering faculty - University of Malta</br>
+                 International studies & Culture   
+                </p>
+                <h3>2015 - 2018</h3>
+                <p>
+                 Lycée - Condorcet</br>
+                 Baccalauréat, mention très bien   
+                </p>
+            </article>
+        
+            <!-- Partie Expérience -->
+            <article class="edu_article">
+                <h1 class="article_experience">Experience</h1>
+                <h2 class="experience_h2">Where i've worked</h2>
+                <h3>2020</h3>
+                <p>
+                 Project development focused on the environment</br>
+                 Coentreprendre78, Saclay   
+                </p>
+                <h3>January 2020 - February 2020</h3>
+                <p>
+                 Internship in a motorcycle workshop</br>
+                 Quincy Motos   
+                </p>
+                <h3>February 2015</h3>
+                <p>
+                 Internship in the IS department</br>
+                 General Council of the Department of Val-de-Marne  
+                </p>
+            </article>
+        </div>
+
+        <!-- Partie Skills -->
+        <h1 id="sk_h1">Skills</h1>
+        <div class="skills">
+            <article class="sk_p">
+                <p>Data Analysis</p>
+                <p>HTML & CSS</p>
+                <p>Computer Network</p>
+                <p>Human Focused Design</p> 
+                <p>JavaScript</p>
+                <p class="sk_lastP">UX Design</p> 
+            </article>
+
+            <div class="s_l">
+                <p>Data Analysis</p>
+                <div class="container">
+                <div class="skills html">90%</div>
+                </div>
+
+                <p>HTML & CSS</p>
+                <div class="container">
+                <div class="skills css">80%</div>
+                </div>
+
+                <p>Computer Network</p>
+                <div class="container">
+                <div class="skills js">65%</div>
+                </div>
+
+                <p>Human focused design</p>
+                <div class="container">
+                <div class="skills php">60%</div>
+                </div>
+
+                <p>JavaScript</p>
+                <div class="container">
+                <div class="skills test">50%</div>
+                </div>
+
+                <p>Ux Design</p>
+                <div class="container">
+                <div class="skills tess">79%</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Contact -->
+        <h1 id="contact_h1">Contact me</h1>
+        <footer class="contact">
+            <form>
+            <p>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </p>
+            <p>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </p>
+            <p>
+                <label for="message">Message :</label>
+                <textarea id="message" name="user_message"></textarea>
+            </p>
+            <p>
+                <button class="form_button" type="submit">Send</button>
+            </p>
+            </form>
+        </footer>
+
+        <article class="credit">
+            <h3>© 2021 By Damien Méhauté. Proudly created with Visual Studio Code</h3>
+        </article>
+      
+    </body>
+</html>

@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*--Partie HEADER--*/
+li, a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 650;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(65, 57, 57);
+}
+
+ul{
+    background-color: rgb(65, 57, 57);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15%;
+    border-bottom : 3px solid black;
+    box-shadow: 1px 3px 2px black;
+    background-color: rgb(65, 57, 57);
+}
+
+.h1_header{
+    cursor: pointer;
+    background-color: rgb(65, 57, 57);
+    color: white;
+    margin-right: 160px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: rgb(65, 57, 57);
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+/*--PARTIE HOME--*/
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section h1{
+    padding-top: 150px;
+    margin-right: 100px;
+    line-height: 90px;
+    font-weight: 600;
+    font-size: 58px;
+}
+
+section img{
+    padding-top: 50px;
+}
+
+section strong{
+    color:cornflowerblue;
+    font:bold;
+}
+
+button{
+    padding: 70px 0px 0px 50px;
+    border:none;
+  }
+
+.button{
+    display: inline-block;
+    background-color: rgb(65, 57, 57);
+    color: white;
+    padding: .95rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+  }
+  .button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  }
+
+/*--PARTIE ABOUT--*/
+.article_about {
+    padding-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(65, 57, 57);
+    background-color: rgb(238, 240, 251);
+}
+
+.article_Abo{
+    padding-top: 50px ;
+    background-color: rgb(238, 240, 251);
+}
+
+#about_h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 46%;
+    color:rgb(65, 57, 57);
+    text-decoration: underline rgb(65, 57, 57);
+    background-color: rgb(238, 240, 251);
+}
+
+.about_h3{
+    font-weight: 520;
+    font:bold;
+    font-size: 30px;
+    padding-left: 25%;
+    padding-top: 20px;
+    background-color: rgb(238, 240, 251);
+    font-style:italic;
+}
+
+.about_p{
+    padding-top: 75px;
+    padding-left: 25%;
+    padding-bottom: 80px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(238, 240, 251);
+}
+
+/*--PARTIE EDUCATION + EXPERIENCE  (utiliser la div pour mettre les deux cotes cotes en colonne)--*/
+.article_eduExp{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 80px;
+}
+
+/*--PARTIE EDUCATION--*/
+#h1_education {
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 40px;
+    color:rgb(65, 57, 57);
+    text-decoration: underline rgb(65, 57, 57);
+}
+
+.education_h2{
+    font-weight: 540;
+    font:bold;
+    padding-top: 50px;
+    font-style:italic;
+}
+
+/*Fonctionne aussi pour la partie expérience*/
+.edu_article p{
+    padding-top: 10px;
+    line-height: 1.5em;  
+}
+
+.edu_article h3{
+    padding-top: 50px;
+}
+
+/*--PARTIE EXPERIENCE--*/
+.article_experience {
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 40px;
+    color:rgb(65, 57, 57);
+    text-decoration: underline rgb(65, 57, 57);
+}
+
+.experience_h2{
+    font-weight: 540;
+    font:bold;
+    padding-top: 50px;
+    font-style:italic;
+}
+
+/*--PARTIE SKILLS--*/
+.skills{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: -250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(238, 240, 251);
+}
+
+#sk_h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 46%;
+    padding-top: 80px;
+    color:rgb(65, 57, 57);
+    text-decoration: underline rgb(65, 57, 57);
+    background: rgb(238, 240, 251);
+}
+
+.sk_p{
+    padding-top: 50px;
+    line-height: 2.4em;
+    font-size: 20px;
+    background: rgb(238, 240, 251);
+}
+
+.sk_p p{
+    background: rgb(238, 240, 251);
+}
+
+.sk_lastP{
+    padding-bottom: 80px;
+}
+
+/* Container for skill bars */
+.container {
+    width: 500px; /* Full width */
+    background-color: #ddd; /* Grey background */
+    
+  }
+  
+.s_l {
+    text-align: right; /* Right-align text */
+    padding-top: 45px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    line-height: 1.5em;
+    background: rgb(238, 240, 251);
+  }
+
+  .s_l p{
+    background: rgb(238, 240, 251);
+    color: rgb(238, 240, 251);
+  }
+  
+.html {width: 90%; background-color: rgb(65, 57, 57);}
+.css {width: 80%; background-color: rgb(65, 57, 57);}
+.js {width: 65%; background-color: rgb(65, 57, 57);}
+.php {width: 60%; background-color: rgb(65, 57, 57);}
+.test {width: 50%; background-color: rgb(65, 57, 57);}
+.tess {width: 79%; background-color: rgb(65, 57, 57);}
+
+/*--PARTIE CONTACT--*/
+#contact_h1{
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 46%;
+    padding-top: 80px;
+    color:rgb(65, 57, 57);
+    text-decoration: underline rgb(65, 57, 57);
+}
+
+.contact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:rgb(65, 57, 57);
+    padding-top: 80px;
+    margin-left: 40%;
+    padding-bottom: 80px;
+}
+
+.contact p{
+    line-height: 2em;
+}
+
+/*--Partie FOOTER--*/
+form {
+    width: 400px;
+    /*Pour éloinger les noms de la bordure*/
+    padding: 1em;
+    border-radius: 1em;
+    border: 3px solid rgb(65, 57, 57);
+  }
+  
+  /*On éloigne les paragraphes entre eux pour plus de lisibilité*/
+form p + p {
+    margin-top: 1em;
+  }
+  
+form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+  }
+  
+form input, textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    border: 1px solid rgb(65, 57, 57);
+    box-sizing: border-box;
+    }
+  
+form textarea {
+    height: 6em;
+    vertical-align: top; 
+    resize : none;
+  }
+
+form button{
+    padding: 70px 0px 0px 50px;
+    border:none;
+  }
+    
+.form_button{
+    margin-left: 90px;
+    background-color: rgb(65, 57, 57);
+    color: white;
+    padding: .95rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+}
+
+/*--Partie CREDIT--*/
+.credit{
+    border-bottom : 3px solid black;
+    background-color: rgb(65, 57, 57);
+    padding: 30px 2%;
+    font-size: 13px;
+}
+
+.credit h3{
+    background-color: rgb(65, 57, 57);
+    color : white;
+}
